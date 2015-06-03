@@ -1,5 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  num = rand(10...42) 
+  "Hello world #{num}"
 end
