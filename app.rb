@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world #{Socket.gethostname}"
+  "Hello world - Machine Name:#{Socket.gethostname}"
 end
